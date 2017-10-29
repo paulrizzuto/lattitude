@@ -1,0 +1,65 @@
+
+.navbar-brand {
+    background-color: rgba(94, 216, 253, 0.986);
+    font-size: 28px;
+    margin-left: 50px;
+    font-family: impact;
+}
+
+.home-image {
+    height: auto;
+    max-width: 100%;
+    float: left;
+    padding-right: 20px;
+}
+
+.home-image-2 {
+    /* height: 200px; */
+    height: auto;
+    max-width: 50%;
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+
+.comparison-image-2 {
+    /* height: 200px; */
+    width: auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.first-panel {
+    max-width: 1200px;
+    float: right;
+}
+
+.second-panel {
+    max-width: 555px;
+    float: left;
+}
+
+.comparison-panel {
+    max-width: 1500px;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(161, 156, 156);
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: white;
+    }
+}
+
+.table {
+    margin: auto;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(94, 216, 253, 0.986);
+}
